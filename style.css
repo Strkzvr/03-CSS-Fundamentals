@@ -12,10 +12,11 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+  position: relative;
 }
 
 .main-header {
@@ -34,6 +35,7 @@ body {
 nav {
   font-size: 18px;
   text-align: center;
+  float: right;
 }
 
 article {
@@ -225,8 +227,8 @@ h2::after {
   display: inline-block;
   padding: 5px 10px;
   position: absolute;
-  top: 140px;
-  right: 240px;
+  top: 120px;
+  right: 275px;
 }
 
 /* LVHA */
@@ -249,4 +251,46 @@ footer p {
 
 /* nav a:link {
   font-size: 18px;
-} */ ;
+} */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
